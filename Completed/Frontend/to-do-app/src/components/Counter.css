@@ -1,0 +1,24 @@
+.counter-button {
+  margin-left: 10px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-button:active {
+  transform: scale(0.9);
+}
+
+.counter-text {
+  margin-left: 10px;
+  font-size: 2rem; /* kök fontsize'ın 2 katı*/
+}
+
+.counter-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid pink;
+  margin-bottom: 5px;
+}
