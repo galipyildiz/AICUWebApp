@@ -19,9 +19,9 @@
 ----
 
 ### Adımlar
-1. Frontend => vite ile ts react app oluşturulması.
+1. [X] Frontend => vite ile ts react app oluşturulması.
    - [vite docs](https://vite.dev/guide/)
      - ```npm create vite@latest```
    - initial gelen resim,svg,css dosyalarının temizlenmesi.
-2. Backend => .net api oluşturulması.
-3. Docker ile postgresql ayağa kaldırılması.
+2. [ ] Backend => .net api oluşturulması.
+3. [ ] Docker ile postgresql ayağa kaldırılması.
