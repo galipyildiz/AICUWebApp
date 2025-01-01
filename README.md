@@ -23,5 +23,6 @@
    - [vite docs](https://vite.dev/guide/)
      - ```npm create vite@latest```
    - initial gelen resim,svg,css dosyalarının temizlenmesi.
+   - component klasörü oluşturup counter typescript ile yazılması ve usestate,useffect kullanımı.
 2. [ ] Backend => .net api oluşturulması.
 3. [ ] Docker ile postgresql ayağa kaldırılması.
