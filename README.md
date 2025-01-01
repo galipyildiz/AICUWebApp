@@ -1,4 +1,8 @@
 # AICUWebApp
+- [Canva Sunumu](https://www.canva.com/design/DAGWl0ZIGIA/yOqvzrhhqOGLPobf279_2w/edit)
+  
+----
+
 ### To-Do List Uygulaması
 - **Amaç:** Kullanıcıların basit bir yapılacaklar listesi oluşturmasını sağlamak.
 - **Özellikler:**
