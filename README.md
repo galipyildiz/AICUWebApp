@@ -79,7 +79,11 @@
    - edit Todo
 ----
 
-#### Oynatma listeleri
+#### Oynatma listeleri ve kaynak
+- [Başlagıç Seviye Frontend](https://academy.patika.dev/tr/paths/baslangic-seviye-frontend-web-development-patikasi)
+- [Orta Seviye Frontend](https://academy.patika.dev/tr/paths/orta-seviye-frontend-web-development-patikasi)
+- [.NET 8](https://www.youtube.com/watch?v=b8fFRX0T38M&list=PLF1jhYUTnHo4xzSbrznUEAsIl7upw3X7K)
+- [Yol Haritası Örnekleri](https://roadmap.sh/)
 - [Bilgisayarlar Nasıl Çalışır?](https://www.youtube.com/watch?v=OAx_6-wdslM&list=PLzdnOPI1iJNcsRwJhvksEo1tJqjIqWbN-)
 - [İnternet Nasıl Çalışır?](https://www.youtube.com/watch?v=Dxcc6ycZ73M&list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7)
 - [Bilgisayar Bilimleri Prensipleri](https://www.youtube.com/watch?v=15aqFQQVBWU&list=PLzdnOPI1iJNfV5ljCxR8BZWJRT_m_6CpB)
