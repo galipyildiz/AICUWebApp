@@ -1,0 +1,40 @@
+# Build sonuçları
+bin/
+obj/
+
+# Kullanıcıya özel dosyalar
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VSCode ve Rider
+.vscode/
+.idea/
+
+# Config dosyaları
+*.swp
+*.log
+*.cache
+
+# Temporary dosyalar
+*.vs/
+*.vscode/
+.vs/
+
+# Paket yöneticisi klasörleri
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Lokal ortam ayarları
+*.env
+*.development
+
+# Publish çıktıları
+publish/
+wwwroot/
+
+# Mac ve Linux metadata
+.DS_Store
+Thumbs.db
