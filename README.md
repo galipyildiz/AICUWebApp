@@ -79,6 +79,9 @@
    - edit Todo
 ----
 
+- [WeShape Girişimcilik Programı](https://www.weshape.com.tr/)
+
+----
 #### Oynatma listeleri ve kaynak
 - [Başlagıç Seviye Frontend](https://academy.patika.dev/tr/paths/baslangic-seviye-frontend-web-development-patikasi)
 - [Orta Seviye Frontend](https://academy.patika.dev/tr/paths/orta-seviye-frontend-web-development-patikasi)
