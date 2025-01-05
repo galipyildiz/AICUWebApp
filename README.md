@@ -77,8 +77,10 @@
   - controller hazırlanması.
   - CORS
 5. [ ] Frontend işlemlerinin tamamlanması.
-   - gerekli kütüphanelerin (axios, bootstrap, orval) kurulması
-   - swager.json dan code generation
+   - backend ile haberleşme için axios kurulması.
+     - ```npm i axios```
+     - api istekleri için **utils > axiosInstance** yazılması.
+   - Todo gösterim componentinin hazırlanması.
    - list Todo
    - add Todo
    - delete Todo

@@ -1,0 +1,54 @@
+.todo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.todo input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.todo textarea {
+  font-size: 16px;
+  color: #333;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  resize: none; /* Kullanıcının boyutlandırmasını engeller */
+}
+
+.todo.completed textarea {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo span {
+  font-size: 16px;
+  color: #333;
+}
+
+.todo.completed span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo:hover {
+  background-color: #f0f0f0;
+}
+
+.button {
+  margin-left: auto;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+}
