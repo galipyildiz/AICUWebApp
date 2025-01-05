@@ -11,7 +11,8 @@ namespace ToDoApp.Controllers
     public class TodosController(ITodoService todoService) : ControllerBase
     {
         [HttpGet]
-        [ProducesResponseType(typeof(ResultDto<List<Todo>>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(List<Todo>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ResultDto<List<Todo>>), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> GetTodos()
         {
             var response = await todoService.GetTodosAsync();
@@ -22,7 +23,8 @@ namespace ToDoApp.Controllers
         }
 
         [HttpPost]
-        [ProducesResponseType(typeof(ResultDto<Todo>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Todo), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ResultDto<Todo>), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> CreateTodo(CreateTodoDto dto)
         {
             var response = await todoService.CreateTodoAsync(dto);
@@ -33,7 +35,8 @@ namespace ToDoApp.Controllers
         }
 
         [HttpPost]
-        [ProducesResponseType(typeof(ResultDto<Todo>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Todo), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ResultDto<Todo>), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> UpdateTodo(Todo dto)
         {
             var response = await todoService.UpdateTodoAsync(dto);
@@ -44,6 +47,8 @@ namespace ToDoApp.Controllers
         }
 
         [HttpDelete]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(typeof(ResultDto<Todo>), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> DeleteTodo(int id)
         {
             var response = await todoService.DeleteTodoAsync(id);
