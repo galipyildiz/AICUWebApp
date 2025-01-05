@@ -7,8 +7,8 @@
 - **Amaç:** Kullanıcıların basit bir yapılacaklar listesi oluşturmasını sağlamak.
 - **Özellikler:**
   - [ ] Görev ekleme.
-  - [ ] Görev düzenleme ve silme.
   - [ ] Görevleri listeleme.
+  - [ ] Görev düzenleme ve silme.
   - [ ] Tamamlanmış görevleri işaretleme.
 ----
 
