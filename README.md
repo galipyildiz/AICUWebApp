@@ -24,7 +24,7 @@
    - gitignore ekle.
 3. [X] Docker ile postgresql ayağa kaldırılması.
    - ```docker run --name aicu-db-pg-container -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=123456 -e POSTGRES_DB=TodoAppDB -p 5432:5432 -d postgres:latest```
-4. [ ] Backend işlemlerinin tamamlanması.
+4. [X] Backend işlemlerinin tamamlanması.
    - Connection string yazılması.
    - [Diğer connection stringler için](https://www.connectionstrings.com/)
    - 
