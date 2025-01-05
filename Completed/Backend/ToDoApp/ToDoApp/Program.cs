@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using ToDoApp.Data;
+
 namespace ToDoApp
 {
     public class Program
@@ -6,6 +9,12 @@ namespace ToDoApp
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            // postgresql configurations
+            builder.Services.AddDbContext<DatabaseContext>(options => options.UseNpgsql(
+                builder.Configuration.GetConnectionString("DefaultConnection")));
+            // postgresql configurations
+
 
             // Add services to the container.
 

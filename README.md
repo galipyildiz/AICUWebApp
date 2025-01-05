@@ -67,8 +67,14 @@
     └── Data/
         └── DatabaseContext.cs
     ```
-  - EF kurulumu ile migration ile db tabloları oluşturulması.
-  - Servis ve controllerın hazırlanması.
+  - Entity framework postgresql ve migration için gerekli kütüphanelerin indirilmesi.
+    - ```Npgsql.EntityFrameworkCore.PostgreSQL``` =>  PostgreSQL için Entity Framework Core sağlayıcısıdır.
+    - ```Microsoft.EntityFrameworkCore.Tools``` => EF Core için CLI araçlarını kullanmak ve migration oluşturmak için gereklidir.
+  - Databasecontext yazılması.
+  - Program.cs ayarları.
+  - inital migration.
+  - servislerin yazılması ve di container eklenmesi.
+  - controller hazırlanması.
   - CORS
 5. [ ] Frontend işlemlerinin tamamlanması.
    - gerekli kütüphanelerin (axios, bootstrap, orval) kurulması
