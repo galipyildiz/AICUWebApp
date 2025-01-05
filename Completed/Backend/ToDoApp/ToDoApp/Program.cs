@@ -1,6 +1,8 @@
 
 using Microsoft.EntityFrameworkCore;
 using ToDoApp.Data;
+using ToDoApp.Services.Abstract;
+using ToDoApp.Services.Concrete;
 
 namespace ToDoApp
 {
@@ -15,7 +17,8 @@ namespace ToDoApp
                 builder.Configuration.GetConnectionString("DefaultConnection")));
             // postgresql configurations
 
-
+            // Add services to the container.
+            builder.Services.AddScoped<ITodoService, TodoService>();
             // Add services to the container.
 
             builder.Services.AddControllers();
