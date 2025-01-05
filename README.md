@@ -76,7 +76,7 @@
   - servislerin yazılması ve di container eklenmesi.
   - controller hazırlanması.
   - CORS
-5. [ ] Frontend işlemlerinin tamamlanması.
+5. [X] Frontend işlemlerinin tamamlanması.
    - backend ile haberleşme için axios kurulması.
      - ```npm i axios```
      - api istekleri için **utils > axiosInstance** yazılması.
