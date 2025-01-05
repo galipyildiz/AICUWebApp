@@ -21,12 +21,28 @@ namespace ToDoApp
             builder.Services.AddScoped<ITodoService, TodoService>();
             // Add services to the container.
 
+            //CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", policy =>
+                {
+                    policy.AllowAnyOrigin()   // Tüm originlere izin ver
+                          .AllowAnyMethod()   // Tüm HTTP metodlarýna izin ver (GET, POST, PUT, DELETE, vb.)
+                          .AllowAnyHeader();  // Tüm baþlýklara izin ver
+                });
+            });
+            //CORS
+
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
+
+            //USE CORS
+            app.UseCors("AllowAll");
+            //USE CORS
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
